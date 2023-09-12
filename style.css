@@ -58,7 +58,7 @@
   width: 100px;
   height: 50px;
   border-radius: 5px;
-  animation: rotateShoe 4s linear infinite;
+  animation: rotateShoe 7s linear infinite;
 }
 
 @keyframes rotateShoe {
