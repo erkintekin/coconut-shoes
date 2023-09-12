@@ -1,0 +1,184 @@
+/* .navbar {
+  height: 100px;
+  background-color: rgb(43, 50, 85);
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+} */
+/* .navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  vertical-align: center;
+  font-weight: bold;
+  display: inline-block;
+} */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.navbar {
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar #navbar-logo {
+  pointer-events: none;
+}
+.navbar ul {
+  vertical-align: middle;
+}
+.navbar li {
+  list-style-type: none;
+  display: inline-block;
+  width: 15%;
+  border-radius: 15px;
+}
+
+.navbar li:hover {
+  background-color: greenyellow;
+  transition: all ease 1s;
+}
+
+.mainimage {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.bestsellerbrands {
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+.bestsellerbrands:hover {
+  background-color: greenyellow;
+  transition: all ease 0.8s;
+}
+
+.image {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 60px;
+  margin-left: 300px;
+}
+.image img:hover {
+  transform: scale(1.2);
+}
+
+.image img {
+  width: 200px;
+  transition: all ease 0.8s;
+}
+
+.bizkimiz {
+  text-align: center;
+  border-radius: 5px;
+  margin: 60px;
+}
+.bizkimiz:hover {
+  background-color: greenyellow;
+  transition: all ease 0.8s;
+}
+.v-hr {
+  height: 100px;
+}
+.knowhow img {
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.knowhow,
+.knowhow p,
+.knowhow h3,
+.knowhow2,
+.v-hr {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+.knowhow2 {
+  margin-left: 650px;
+}
+.knowhow2 h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.knowhow h3,
+.knowhow p {
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 300px;
+  padding: 0;
+  text-align: justify;
+}
+.knowhow2 img {
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.knowhow img,
+.knowhow2 img {
+  display: inline-block;
+  object-fit: cover;
+}
+
+.bestproducts {
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+.bestproducts:hover {
+  background-color: greenyellow;
+  transition: all ease 0.8s;
+}
+
+.bestseller {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+.bestseller img {
+  width: 150px;
+  margin: 100px;
+  transition: all ease 0.5s;
+}
+.bestseller img:hover {
+  transform: scale(1.2);
+}
+.footer {
+  text-align: center;
+  padding: 25px;
+  border-radius: 15px;
+}
+.footer ul {
+  text-align: center;
+}
+.footer li {
+  vertical-align: middle;
+  list-style-type: none;
+  display: inline-block;
+  width: 15%;
+  border-radius: 15px;
+}
+.footer li:hover {
+  background-color: greenyellow;
+  transition: all ease 0.8s;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer img {
+  width: 30px;
+  vertical-align: middle;
+}
